@@ -2,3 +2,7 @@ venv
 
 *.pyc
 *.sqlite3
+
+src/.coverage
+src/coverage.xml
+src/unittests.xml

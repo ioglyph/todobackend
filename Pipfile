@@ -10,9 +10,13 @@ name = "pypi"
 django = "==1.9"
 djangorestframework = "==3.3"
 django-cors-headers = "==1.1"
+mysqlclient = "*"
 
 
 [dev-packages]
+django-nose = "*"
+pinocchio = "*"
+coverage = "*"
 
 
 
