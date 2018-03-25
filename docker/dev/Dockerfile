@@ -1,4 +1,4 @@
-FROM bpack/todobackend-base:latest
+FROM ioglyph/todobackend-base:latest
 MAINTAINER Benjamin Pack <ben.pack@gmail.com>
 
 # Install dev/build dependencies
