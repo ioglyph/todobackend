@@ -1,4 +1,5 @@
 from django.db import models
+import random
 
 # Create your models here.
 
@@ -7,3 +8,4 @@ class TodoItem(models.Model):
     completed = models.BooleanField(blank=True, default=False)
     url = models.CharField(max_length=256, null=True, blank=True)
     order = models.IntegerField(null=True, blank=True)
+    random = random.randint(0, 10000)
