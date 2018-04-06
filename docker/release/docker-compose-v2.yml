@@ -49,6 +49,7 @@ services:
 
     db:
         image: mysql:5.6
+        hostname: db
         expose:
           - "3306"
         environment:
@@ -65,4 +66,5 @@ services:
             PROBE_HOST: "db"
             PROBE_PORT: "3306"
             PROBE_TIMEOUT: "300"
+            PROBE_DELAY: "10"
         command: ["probe.yml"]
